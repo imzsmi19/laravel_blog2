@@ -11,7 +11,8 @@ class RegisterController extends Controller
     public function register(){
         // $response = Http::get('https://api.kawalcorona.com/indonesia');
         // $response = Http::post('http://127.0.0.1:8000/api/register', [
-            $response = Http::post('http://localhost/laravel_jwt2/public/api/register', [
+            // $response = Http::post('http://localhost/laravel_jwt2/public/api/register', [
+            $response = Http::post('http://attartil.or.id/dev/laravel_jwt2/public/api/register', [
             'name' => 'Steve',
             'email' => 'steve@gmail.com',
             'password' => '12345678',
